@@ -1,8 +1,8 @@
 {
-  "name": "hl-form",
+  "name": "@hostlink/hl-form",
   "description": "A responsive form extends element-ui form",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name hl-form ./src/index.js",
