@@ -1,24 +1,17 @@
 # hl-form
-
-## Project setup
 ```
-npm install
+npm i @hostlink/hl-form
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+```js
+import HLForm from '@hostlink/hl-form'
+Vue.use(HLForm)
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```html
+<hl-form>
+    <el-form-item>
+    </el-form-item>
+</hl-form>
+```
